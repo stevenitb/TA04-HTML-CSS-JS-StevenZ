@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Steven Zapata">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Portafolio - Pàgina Principal</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <div class="logo">
+            <!-- Imagen del logo -->
+            <img src="imagenes/logo.jpg" alt="logo" class="logo-img">
+            <h1>Portafolio Steven Zapata</h1>
+            <div class="reloj">
+                <p class="fecha"></p>
+                <p class="tiempo"></p>
+            </div>
+        </div>
+
+    </header>
+
+<!-- Barra de navegación (Índice) -->
+<nav>
+    <ul>
+        <!-- Menú principal con submenú para 'Índice' -->
+        <li class="menu-item">
+            <a href="index.html">Índice</a>
+            <ul class="submenu">
+                <!-- Subenlace solo para Contacte -->
+                <li><a href="contacte.html">Contacte</a></li>
+
+                <!-- Menú dentro de Índice para 'Tots els Projectes' -->
+                <li class="menu-item">
+                    <a href="proyectos.html">Tots els Projectes</a>
+                    <ul class="submenu">
+                        <li><a href="proyectos.html#projectDestacat0">Projecte 1</a></li>
+                        <li><a href="proyectos.html#projectDestacat1">Projecte 2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+
+
+    <!-- Contenido principal -->
+    <main>
+        <section>
+            <h2>PROJECTES DESTACATS</h2>
+            <!-- Proyecto 1 -->
+            <article>
+                <h3>Hardware Exchange</h3>
+                <p>Somos una empresa de compra y venta de Hardware principalmente, dirigida desde pequeños a grandes consumidores.</p>
+                <a href="proyectos.html#projectDestacat0" class="button">Mas Detalles</a>
+            </article>
+            <!-- Proyecto 2 -->
+            <article>
+                <h3>Arducurity</h3>
+                <p>Somos una empresa dedicada a la construcción de circuitos con Arduino haciendo uso de diversos sensores adaptados a tus necesidades.</p>
+                <a href="proyectos.html#projectDestacat0" class="button">Mas Detalles</a>
+                <script></script>
+            </article>
+        </section>
+        <aside>
+            <h3>Diseño Web</h3>
+            <p>Un sitio web de noticias adaptativo que permite a los usuarios explorar contenido informativo actualizado, organizado por categorías, con un diseño intuitivo y accesible desde cualquier dispositivo.</p>
+            <a href="proyectos.html#projectDestacat1" class="button">Mas Detalles</a>
+        </aside>
+
+    </main>
+
+    <!-- Pie de página -->
+  <footer>
+        <p>&copy; 2024 Steven Zapata. Todos los derechos reservados.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="imagenes/instagram_logo.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="imagenes/xlogo.png" alt="Twitter" class="social-icon">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="imagenes/linkedin_logo.png" alt="LinkedIn" class="social-icon">
+            </a>
+        </div>
+
+  </footer>
+</body>
+<!--Script muestra hora-->
+<script src="script.js"></script>
+</html>
